@@ -1,0 +1,7 @@
+--- Notes ---
+
+Basic syntax rules:
+- Variable and package names are lower and mixed case
+- Package names should be single words, all lowercase
+- Exported functions and fields have a leading capital letter
+- Curly bracket MUST be on the same line as function definition (or preceding statement)
