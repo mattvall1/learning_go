@@ -1,3 +1,5 @@
+<b>Important note:</b> All files in this folder are from the course [Learning Go][lil-course-url]. This directory is unmodified and is only used to host the course files for my own convenience.
+
 # Learning Go
 This is the repository for the LinkedIn Learning course `Learning Go`. The full course is available from [LinkedIn Learning][lil-course-url].
 
