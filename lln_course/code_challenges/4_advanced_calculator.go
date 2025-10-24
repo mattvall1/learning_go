@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"strconv"
 )
 
@@ -38,8 +37,8 @@ func calculate(input1 string, input2 string, operation string) float64 {
 func convertInputToValue(input string) float64 {
 	float, err := strconv.ParseFloat(input, 64)
 	if err != nil {
-		fmt.Println(err)
-		os.Exit(0)
+		message := fmt.Sprintf("%v must be a number. ", input)
+		panic(message)
 	}
 	return float
 }
