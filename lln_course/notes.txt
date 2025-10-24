@@ -5,3 +5,9 @@ Basic syntax rules:
 - Package names should be single words, all lowercase
 - Exported functions and fields have a leading capital letter
 - Curly bracket MUST be on the same line as function definition (or preceding statement)
+
+Memory allocation:
+             The `new()` function                    |              The `make()` function
+-----------------------------------------------------+-------------------------------------------------------
+Allocates but does not initialize memory             | Allocates AND initializes memory
+Results in zeroed storage + returns memory address   | Allocates non-zeroed storage + returns memory address
